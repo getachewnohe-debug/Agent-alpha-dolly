@@ -9,4 +9,4 @@ const { startSlackApp } = require('./slack');
     console.error('Failed to start:', error);
     process.exit(1);
   }
-})(
+})();
